@@ -12,7 +12,8 @@ class Employee:
 class Developer(Employee):
     def __init__(self,first_name=None,last_name=None,pay=0,prog_lang=None):
         super().__init__(first_name,last_name,pay)
-        self.prog_lang =prog_lang
+        self.prog_lang =prog_lang\
+#hi hello 
 
 class Manager(Employee):
     def __init__(self,first_name=None,last_name=None,pay=0,employees=None):
